@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+
+/* prevent horizontal scroll and accidental overflow */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove horizontal scroll at root */
+html, body, #root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* ensure media never force horizontal scroll */
+img, picture, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* utility in case you need to force hide overflow on main wrapper */
+.app-no-x {
+  overflow-x: hidden;
+}
