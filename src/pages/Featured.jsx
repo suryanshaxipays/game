@@ -105,13 +105,13 @@ const Featured = () => {
                 alt={game.title}
                 className={`w-full h-full object-cover rounded-xl ${
                   i === 2
-                    ? "border-4 border-pink-500/20 shadow-[0_0_40px_15px_rgba(255,0,168,0.6)]"
+                    ? "border border-white/30"
                     : "shadow-lg"
                 } transition-all duration-700`}
                 style={{
                   filter:
                     i === 2
-                      ? "drop-shadow(0 0 5px rgba(255,0,168,0.8))"
+                      ? "drop-shadow(0 0 5px rgba(255, 255, 255, 0.8))"
                       : "none",
                 }}
               />
