@@ -169,26 +169,15 @@ const GameReviewsPage = () => {
   };
 
   return (
-    <div className=" text-white font-sans p-10 min-h-screen">
+    <div className=" text-white font-sans p-10 min-h-screen w-370 ml-5 mt-20">
       {/* Header */}
       <header className="flex justify-between items-center mb-8">
         <div className="flex items-center">
-          <h1 className="text-2xl mr-5">Game Reviews</h1>
-          <a href="#view-all" className="text-[#a9a9d3] text-base no-underline">
-            View All &gt;
-          </a>
+          <h1 className="text-4xl mr-5">Game Reviews</h1>
+          
         </div>
         <div className="flex items-center">
-          <div className="bg-white/10 border border-white/20 rounded-full w-10 h-10 flex justify-center items-center cursor-pointer ml-2">
-            <ArrowLeftIcon />
-          </div>
-          <div className="bg-white/10 border border-white/20 rounded-full w-10 h-10 flex justify-center items-center cursor-pointer ml-2">
-            <ArrowRightIcon />
-          </div>
-          <div className="flex ml-5">
-            <div className="w-6 h-1 rounded bg-[#8a42ff] mx-[3px]"></div>
-            <div className="w-6 h-1 rounded bg-[#4e2f7e] mx-[3px]"></div>
-          </div>
+          
         </div>
       </header>
 
@@ -261,9 +250,7 @@ const GameReviewsPage = () => {
                     {game.releaseDate}
                   </div>
                 </div>
-                <button className="bg-[#8a42ff] text-white rounded-lg px-6 py-3 text-sm font-bold cursor-pointer">
-                  Full Review
-                </button>
+                
               </div>
             </div>
           </div>

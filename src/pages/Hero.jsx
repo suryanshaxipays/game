@@ -13,21 +13,21 @@ const Home = () => {
   return (
     <div className="relative w-full h-full bg-[#0A0F21] overflow-hidden">
       {/* Background image */}
-     <div className="absolute top-14 -right-4 w-300 h-159 overflow-hidden">
+     <div className="absolute top-22 -right-4 w-300 h-159 overflow-hidden">
        <img
         src={HeroImage} 
         alt="Background"
         className="absolute right-0"
       />
      </div>
-     <div className="absolute top-92 right-9 w-300 h-220 overflow-hidden">
+     <div className="absolute top-100 right-9 w-300 h-220 overflow-hidden">
        <img
         src={Sboy} 
         alt="Background"
         className="absolute right-0"
       />
      </div>
-     <div className="absolute top-114 right-130 w-300 h-220 overflow-hidden z-50">
+     <div className="absolute top-122 right-130 w-300 h-220 overflow-hidden z-50">
        <img
         src={Girl} 
         alt="Background"
@@ -36,7 +36,7 @@ const Home = () => {
      </div>
 
       {/* Navbar */}
-      <nav className="w-full h-[60px] border-b border-white/30 absolute top-0 left-0 z-50 bg-black/10 backdrop-blur-md">
+      <nav className="w-full h-[60px] border-b border-white/30 absolute top-0 left-0 z-50 bg-black/10 backdrop-blur-md m">
         <div className="flex items-center justify-between h-full px-10">
           {/* Left Logo */}
           <div className="flex items-center">
@@ -66,7 +66,6 @@ const Home = () => {
           {/* Right Button */}
           <h1
             className="text-white text-[13px] font-medium uppercase tracking-wider hover:text-yellow-400 transition-colors cursor-pointer"
-            x
           >
             CONNECT WALLET
           </h1>
@@ -105,7 +104,7 @@ const Home = () => {
         </div>
 
         {/* Stats Card */}
-        <div className="absolute bg-white rounded-xl shadow-lg px-8 py-6 flex justify-between items-center w-120 z-40 mt-151 right-20">
+        <div className="absolute bg-white rounded-xl shadow-lg px-8 py-6 flex justify-between items-center w-120 z-40 mt-150 right-20">
           {/* Unique Style */}
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-black">300+</h2>
@@ -136,7 +135,7 @@ const Home = () => {
           </div>
         </div>
         {/*dimension text*/}
-        <div className="absolute z-40 top-[528px]">
+        <div className="absolute z-40 top-141">
           <h1
             className="absolute text-[150px] font-extrabold font-[Syne] text-transparent opacity-15 "
             style={{
@@ -150,7 +149,7 @@ const Home = () => {
       </section>
       
       {/* Animated Marquee Section */}
-<div className="relative w-full overflow-hidden mt-1">
+<div className="relative w-full overflow-hidden -mt-5">
   <div
     style={{
       display: "flex",
@@ -176,7 +175,7 @@ const Home = () => {
               style={{
                 color: "white",
                 fontWeight: 900,
-                fontSize: "2.5rem",
+                fontSize: "2rem",
                 letterSpacing: "0.05em",
                 textTransform: "uppercase",
                 fontFamily: "Orbitron, sans-serif",

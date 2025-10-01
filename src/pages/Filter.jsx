@@ -448,13 +448,13 @@ export default function App() {
         .text-gaming-yellow { color: #FFCC00; }
         .text-grey-200 { color: #BEBEBE; }
       `}</style>
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-[120px] py-8 lg:py-16">
+      <div className="max-w-[1540px] mx-auto px-4 sm:px-8 lg:px-[120px] py-8 lg:py-16">
         <div className="text-center mb-8">
           <h1 className="text-2xl lg:text-3xl font-bold text-white mb-1">
-            Games By Filter
+            Play Your Way
           </h1>
           <p className="text-grey-200 text-sm lg:text-base">
-            At This Section You Can Search For Games by multiple filters
+            Quickly discover games that match your style
           </p>
         </div>
 

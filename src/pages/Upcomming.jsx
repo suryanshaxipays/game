@@ -73,16 +73,16 @@ export default function Index() {
   };
 
   return (
-    <div className="h-full text-white font-vazirmatn mt-10">
+    <div className="h-full w-full text-white font-vazirmatn mt-10">
       {/* Upcoming Games Section */}
-      <div className="w-full max-w-[1440px] mx-auto px-[120px] py-16">
+      <div className="w-full max-w-[1540px] mx-auto px-[120px] py-16">
         <div className="flex flex-col items-center gap-8">
           {/* Header Section */}
           <div className="flex justify-between items-center w-full">
             {/* Heading and View All */}
             <div className="flex items-center gap-12">
               <h1 className="text-2xl font-bold text-white capitalize">
-                Up Coming Games
+                Next Big Hits
               </h1>
               <button className="flex items-center gap-1 px-9 py-2 rounded-[20px] hover:bg-orange-500/10 transition-colors">
                 <span className="text-orange-500 text-lg font-medium">
@@ -252,7 +252,7 @@ export default function Index() {
       </div>
 
       {/* Responsive Adjustments */}
-      <style jsx>{`
+      <style >{`
         @media (max-width: 1200px) {
           .px-\\[120px\\] {
             padding-left: 2rem;

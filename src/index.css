@@ -20,7 +20,6 @@ html, body, #root {
 /* ensure media never force horizontal scroll */
 img, picture, video, iframe {
   max-width: 100%;
-  height: auto;
   display: block;
 }
 

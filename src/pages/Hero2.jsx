@@ -9,12 +9,12 @@ import modelIcon from "../assets/model.png";
 
 const Hero2 = () => {
   const services = [
-    { icon: mobileIcon, title: "Mobile Game Development" },
-    { icon: pcIcon, title: "PC Game Development" },
-    { icon: psIcon, title: "PS4 Game Development" },
-    { icon: arvrIcon, title: "AR/VR Solutions" },
-    { icon: designIcon, title: "AR/VR design" },
-    { icon: modelIcon, title: "3D Modelings" },
+    { icon: mobileIcon, title: "One Hub, Every Genre" },
+    { icon: pcIcon, title: "Non-Stop Action" },
+    { icon: psIcon, title: "Be the Champion" },
+    { icon: arvrIcon, title: "Play Together" },
+    { icon: designIcon, title: "Exclusive Perks" },
+    { icon: modelIcon, title: "No Limits, Just Play" },
   ];
 
   return (
@@ -26,11 +26,11 @@ const Hero2 = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 text-white bg-black/40">
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl font-bold mb-19">
-          Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry.
+          Level Up Your Game. Level Up Your World.
+ 
         </h1>
         <p className="max-w-3xl text-sm md:text-base mb-19">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          You’re not just playing. You’re stepping into a universe built for thrill, challenge, and endless fun. Here’s why this is where gamers belong:
         </p>
 
        {/* Services */}
@@ -47,7 +47,7 @@ const Hero2 = () => {
           />
         </div>
         <p className="text-sm md:text-base">{service.title}</p>
-        <span className="text-red-500 text-lg">→</span>
+     
       </div>
     ))}
   </div>

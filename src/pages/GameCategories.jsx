@@ -8,18 +8,18 @@ const GameCategories = () => {
   return (
     <div className="relative h-full w-full bg-[#0A0F21] text-white px-20 py-16">
       {/* Title */}
-      <h2 className="text-4xl font-bold mb-12 pl-2">Game Categories</h2>
+      <h2 className="text-4xl font-bold mb-12 pl-2">Choose Your Arena</h2>
 
       {/* Main layout: 2 columns next to each other */}
       <div className="flex gap-6 w-[100%] mx-auto">
         {/* Left Column */}
         <div className="flex flex-col gap-4 flex-1">
           {/* Big Card */}
-          <div className="relative rounded-xl overflow-hidden">
+          <div className="h-[310px] relative rounded-xl overflow-hidden">
             <img
               src={selectedGames[0].thumbnail}
               alt={selectedGames[0].genre}
-              className="w-full h-[350px] object-cover"
+              className="w-full object-cover"
             />
             <div className="absolute bottom-3 left-3 font-semibold">
               {selectedGames[0].genre}
@@ -78,11 +78,11 @@ const GameCategories = () => {
           </div>
 
           {/* Big Card */}
-          <div className="relative rounded-xl overflow-hidden">
+          <div className="h-[300px] relative rounded-xl overflow-hidden">
             <img
               src={selectedGames[5].thumbnail}
               alt={selectedGames[5].genre}
-              className="w-full h-[350px] object-cover"
+              className="w-full  object-cover"
             />
             <div className="absolute bottom-3 left-3 font-semibold">
               {selectedGames[5].genre}
