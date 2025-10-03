@@ -84,7 +84,7 @@ export default function Index() {
               <h1 className="text-2xl font-bold text-white capitalize">
                 Next Big Hits
               </h1>
-              <button className="flex items-center gap-1 px-9 py-2 rounded-[20px] hover:bg-orange-500/10 transition-colors">
+              <button className="hidden lg:flex items-center gap-1 px-9 py-2 rounded-[20px] hover:bg-orange-500/10 transition-colors">
                 <span className="text-orange-500 text-lg font-medium">
                   View All
                 </span>        
@@ -103,7 +103,7 @@ export default function Index() {
               </button>
             </div>
             {/* Navigation Controls - right aligned */}
-            <div className="flex flex-col items-end gap-2">
+            <div className="hidden lg:flex flex-col items-end gap-2">
               <div className="flex items-center gap-2">
                 <button
                   onClick={goToPrevious}

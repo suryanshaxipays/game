@@ -3,24 +3,26 @@ import GirlImage from "../assets/VRGirl.png";
 
 const Girl_page = () => {
   return (
-    <div className="w-full h-200 flex items-center justify-center overflow-hidden">
-      <div className="scale-[1.17] origin-top ">
-        <div className="relative  h-full w-full bg-[#0A0F21] flex items-center justify-center px-12 py-16">
-          <div className=" h-131 relative flex flex-col md:flex-row items-center md:items-start bg-gradient-to-br from-[#0D0F2A]/80 to-[#1B0F30]/80 rounded-2xl shadow-lg p-10 w-6xl border border-white/10 backdrop-blur-lg overflow-visible">
-            {/* Left Image (outside top & bottom) */}
-            <div className="flex-1 relative flex justify-center -mb-10 md:justify-start">
+    <div className="-mt-15 -mb-25  w-full min-h-screen flex items-center justify-center overflow-hidden bg-[#0A0F21]">
+      <div className="scale-100 lg:scale-[1.17] origin-top w-full">
+        <div className="relative w-full flex items-center justify-center px-6 sm:px-10 lg:px-12 py-10 lg:py-16">
+          <div className="relative flex flex-col md:flex-row items-center md:items-start bg-gradient-to-br from-[#0D0F2A]/80 to-[#1B0F30]/80 rounded-2xl shadow-lg p-6 sm:p-8 md:p-10 w-full max-w-6xl border border-white/10 backdrop-blur-lg">
+            {/* Left Image */}
+            <div className="flex-1 relative flex justify-center md:justify-start mb-6 md:mb-0">
               <img
                 src={GirlImage}
                 alt="VR Girl"
-                className="absolute bottom-0 w-[380px] md:w-[440px] lg:w-[700px] h-[570px]  drop-shadow-[0_0_5px_rgba(168,85,247,0.8)] 
-                -top-22"
+                className="relative md:absolute bottom-0 
+                w-[220px] sm:w-[300px] md:w-[440px] lg:w-[700px] 
+                h-auto  lg:-bottom-104 md:-bottom-104
+                drop-shadow-[0_0_5px_rgba(168,85,247,0.8)]"
               />
             </div>
 
             {/* Right Content */}
             <div className="flex-1 text-center md:text-left z-10">
               <h2
-                className="text-4xl md:text-5xl font-extrabold leading-tight"
+                className="text-2xl sm:text-3xl md:text-5xl font-extrabold leading-tight"
                 style={{
                   background:
                     "linear-gradient(98deg, #FFF 0.2%, #6375F1 50.7%, #FFF 93.98%)",
@@ -44,7 +46,8 @@ const Girl_page = () => {
                 </span>{" "}
                 Play
               </h2>
-              <p className="mt-6 text-gray-300 text-base md:text-lg max-w-md">
+
+              <p className="mt-4 sm:mt-6 text-gray-300 text-sm sm:text-base md:text-lg max-w-md mx-auto md:mx-0">
                 Gaming isn’t just on a screen anymore — it’s an experience you
                 can feel, live, and explore. Lose yourself in adventures that
                 blur the line between reality and imagination, where every move
@@ -52,10 +55,10 @@ const Girl_page = () => {
               </p>
 
               {/* Button */}
-              <div className="mt-8 inline-block relative group">
+              <div className="mt-6 sm:mt-8 inline-block relative group">
                 <svg
-                  width="220"
-                  height="60"
+                  width="200"
+                  height="55"
                   viewBox="0 0 220 60"
                   xmlns="http://www.w3.org/2000/svg"
                   className="cursor-pointer transition-all duration-300"
@@ -73,7 +76,7 @@ const Girl_page = () => {
                   <text
                     x="110"
                     y="35"
-                    fontSize="18"
+                    fontSize="16"
                     fontWeight="bold"
                     textAnchor="middle"
                     dominantBaseline="middle"
@@ -86,9 +89,8 @@ const Girl_page = () => {
                     PLAY NOW
                   </text>
 
-                  {/* Gradient definitions */}
+                  {/* Gradient defs */}
                   <defs>
-                    {/* Border gradient */}
                     <linearGradient
                       id="borderGradient"
                       x1="0%"
@@ -100,7 +102,6 @@ const Girl_page = () => {
                       <stop offset="100%" stopColor="#FF00A8" />
                     </linearGradient>
 
-                    {/* Text gradient */}
                     <linearGradient
                       id="textGradient"
                       x1="0%"

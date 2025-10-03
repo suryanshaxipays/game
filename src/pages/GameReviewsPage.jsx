@@ -169,94 +169,89 @@ const GameReviewsPage = () => {
   };
 
   return (
-    <div className=" text-white font-sans p-10 min-h-screen w-370 ml-5 mt-20">
-      {/* Header */}
-      <header className="flex justify-between items-center mb-8">
-        <div className="flex items-center">
-          <h1 className="text-4xl mr-5">Game Reviews</h1>
-          
-        </div>
-        <div className="flex items-center">
-          
-        </div>
-      </header>
+      <div className="text-white font-sans p-4 sm:p-6 md:p-10 min-h-screen w-full max-w-[1400px] mx-auto mt-20">
+    {/* Header */}
+    <header className="flex flex-col lg:flex-row justify-between items-start sm:items-center mb-8 gap-4 sm:gap-0">
+      <div className="flex items-center gap-4">
+        <h1 className="text-2xl sm:text-4xl">Game Reviews</h1>
+      </div>
+    </header>
 
-      {/* Game Cards */}
-      <main className="grid grid-cols-2 gap-6">
-        {gamesData.map((game, index) => (
-          <div
-            key={index}
-            className="border border-transparent hover:border-orange-500 hover:shadow-lg bg-[#161629] rounded-xl p-5 flex gap-5"
-          >
-            <img
-              src={game.poster}
-              alt={`${game.title} Poster`}
-              className="w-[180px] h-[250px] object-cover rounded-lg shrink-0 "
-            />
-            <div className="flex flex-col justify-between w-full">
-              <div className="flex justify-between">
-                {/* Game Info */}
-                <div className="flex-1">
-                  <h2 className="text-xl mb-2">
-                    {game.title}{' '}
-                    <span className="text-[#a9a9d3] ml-2">({game.year})</span>
-                  </h2>
-                  <p className="text-sm text-[#a9a9d3] leading-relaxed mb-4">
-                    {game.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {game.tags.map((tag, i) => (
-                      <span
-                        key={i}
-                        className="bg-white/10 text-[#a9a9d3] px-3 py-1 rounded-2xl text-xs"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Stats */}
-                <div className="flex flex-col items-start gap-3 ml-5 text-[#a9a9d3] text-sm shrink-0">
-                  <div className="flex items-center">
-                    <ViewsIcon /> {game.views} Views
-                  </div>
-                  <div className="flex items-center">
-                    <CommentsIcon /> {game.comments} Comments
-                  </div>
-                  <div className="flex items-center">
-                    <StarIcon />
-                    <div>
-                      <span className="text-white font-bold text-base">
-                        {game.userRating.toFixed(1)}
-                      </span>
-                      <span className="text-[#a9a9d3] text-xs ml-1">/10</span>
-                    </div>
-                  </div>
+    {/* Game Cards */}
+    <main className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+      {gamesData.map((game, index) => (
+        <div
+          key={index}
+          className="border border-transparent hover:border-orange-500 hover:shadow-lg bg-[#161629] rounded-xl p-4 sm:p-5 flex flex-col sm:flex-row gap-4 sm:gap-5"
+        >
+          <img
+            src={game.poster}
+            alt={`${game.title} Poster`}
+            className="w-full sm:w-[180px] h-[250px] object-cover rounded-lg flex-shrink-0"
+          />
+          <div className="flex flex-col justify-between w-full">
+            <div className="flex flex-col sm:flex-row justify-between gap-4 sm:gap-5">
+              {/* Game Info */}
+              <div className="flex-1">
+                <h2 className="text-lg sm:text-xl mb-2">
+                  {game.title}{' '}
+                  <span className="text-[#a9a9d3] ml-1 sm:ml-2">({game.year})</span>
+                </h2>
+                <p className="text-sm text-[#a9a9d3] leading-relaxed mb-4">
+                  {game.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {game.tags.map((tag, i) => (
+                    <span
+                      key={i}
+                      className="bg-white/10 text-[#a9a9d3] px-3 py-1 rounded-2xl text-xs"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
               </div>
 
-              {/* Footer */}
-              <div className="flex items-center justify-between mt-5">
-                <div className="flex items-center gap-4">
-                  <div
-                    className="px-2 py-1 rounded text-sm font-bold text-white"
-                    style={{ backgroundColor: getScoreColor(game.metacriticScore) }}
-                  >
-                    {game.metacriticScore} / 100
-                  </div>
-                  <div className="flex items-center text-[#a9a9d3] text-sm">
-                    <CalendarIcon />
-                    {game.releaseDate}
+              {/* Stats */}
+              <div className="flex flex-row sm:flex-col items-start sm:items-start gap-3 text-[#a9a9d3] text-sm flex-shrink-0">
+                <div className="flex items-center gap-1">
+                  <ViewsIcon /> {game.views} Views
+                </div>
+                <div className="flex items-center gap-1">
+                  <CommentsIcon /> {game.comments} Comments
+                </div>
+                <div className="flex items-center gap-1">
+                  <StarIcon />
+                  <div className="flex items-center gap-1">
+                    <span className="text-white font-bold text-base">
+                      {game.userRating.toFixed(1)}
+                    </span>
+                    <span className="text-[#a9a9d3] text-xs">/10</span>
                   </div>
                 </div>
-                
+              </div>
+            </div>
+
+            {/* Footer */}
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-5 gap-2 sm:gap-0">
+              <div className="flex items-center gap-2 sm:gap-4">
+                <div
+                  className="px-2 py-1 rounded text-sm font-bold text-white"
+                  style={{ backgroundColor: getScoreColor(game.metacriticScore) }}
+                >
+                  {game.metacriticScore} / 100
+                </div>
+                <div className="flex items-center text-[#a9a9d3] text-sm gap-1">
+                  <CalendarIcon />
+                  {game.releaseDate}
+                </div>
               </div>
             </div>
           </div>
-        ))}
-      </main>
-    </div>
+        </div>
+      ))}
+    </main>
+  </div>
   );
 };
 
