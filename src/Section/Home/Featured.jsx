@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { games } from "../data/games";
+import { useEffect, useState } from "react";
+import { games } from "../../data/games";
 
 
 const ChevronLeftIcon = (props) => (

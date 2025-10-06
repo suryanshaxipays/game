@@ -1,5 +1,4 @@
-import React from "react";
-import GirlImage from "../assets/VRGirl.png";
+import GirlImage from "../../assets/VRGirl.png";
 
 const Girl_page = () => {
   return (

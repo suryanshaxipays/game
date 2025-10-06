@@ -1,11 +1,10 @@
-import React from "react";
-import second from "../assets/bg2.png"; 
-import mobileIcon from "../assets/mobile.png";
-import pcIcon from "../assets/pc.png";
-import psIcon from "../assets/ps.png";
-import arvrIcon from "../assets/arvr.png";
-import designIcon from "../assets/design.png";
-import modelIcon from "../assets/model.png";
+import second from "../../assets/bg2.png"; 
+import mobileIcon from "../../assets/mobile.png";
+import pcIcon from "../../assets/pc.png";
+import psIcon from "../../assets/ps.png";
+import arvrIcon from "../../assets/arvr.png";
+import designIcon from "../../assets/design.png";
+import modelIcon from "../../assets/model.png";
 
 const Hero2 = () => {
   const services = [

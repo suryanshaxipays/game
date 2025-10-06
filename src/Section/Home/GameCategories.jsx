@@ -1,5 +1,4 @@
-import React from "react";
-import { games } from "../data/games";
+import { games } from "../../data/games";
 
 const GameCategories = () => {
   // Pick first 6 games from your data

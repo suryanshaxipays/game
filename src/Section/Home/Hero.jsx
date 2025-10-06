@@ -1,10 +1,10 @@
-import HeroImage from "../assets/bboy.png";
-import gbg from "../assets/gbg.png";
-import Sboy from "../assets/sboy.png";
-import Girl from "../assets/girl.png";
-import TournamentCard from "../components/TournamentCard";
-import star from "../assets/star.png"; // local star image
-import Navbar from "../components/Navbar";
+import HeroImage from "../../assets/bboy.png";
+import gbg from "../../assets/gbg.png";
+import Sboy from "../../assets/sboy.png";
+import Girl from "../../assets/girl.png";
+import TournamentCard from "../../components/TournamentCard";
+import star from "../../assets/star.png"; // local star image
+import Navbar from "../../components/Navbar";
 
 const Home = () => {
   return (

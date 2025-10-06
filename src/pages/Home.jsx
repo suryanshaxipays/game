@@ -1,14 +1,12 @@
-import Hero from "./Hero";
-import Featured from "./Featured";
-import GameCategories from "./GameCategories";
-import Girl_page from './Girl_page'
-import Upcomming from './Upcomming'
-import Hero2 from './Hero2'
-import GameReviewsPage from './GameReviewsPage'
-import ServicesPage from './ServicesPage.jsx'
-import Filter from './Filter.jsx'
-
-
+import Hero from "../Section/Home/Hero";
+import Featured from "../Section/Home/Featured";
+import GameCategories from "../Section/Home/GameCategories";
+import Girl_page from "../Section/Home/Girl_page";
+import Upcomming from "../Section/Home/Upcomming";
+import Hero2 from "../Section/Home/Hero2";
+import GameReviewsPage from "../Section/Home/GameReviewsPage";
+import ServicesPage from "../Section/Home/ServicesPage.jsx";
+import Filter from "../Section/Home/Filter.jsx";
 
 import Ellipse from "../assets/Ellipse.png";
 
