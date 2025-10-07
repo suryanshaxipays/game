@@ -1,125 +1,145 @@
+import heroImg from "../../assets/Feature/heroImage.png";
+import gears from "../../assets/Feature/gears.png";
+import farcry from "../../assets/Feature/farcry.png";
+import rainbow from "../../assets/Feature/rainbow.png";
+import jewel from "../../assets/Feature/game1.png";
+import dream from "../../assets/Feature/game2.png";
+import lost from "../../assets/Feature/game3.png";
+import blue from "../../assets/Feature/game4.png";
+import bottomImage from "../../assets/Feature/bottomImage.png";
 
-const First = () => {
-  const heroImage =
-    "https://placehold.co/800x600/0f172a/93c5fd?text=Hero+Character+Action";
-
-  const topImages = [
-    "https://placehold.co/400x550/0f172a/93c5fd?text=GEARS+OF+WAR+4",
-    "https://placehold.co/400x550/0f172a/93c5fd?text=FAR+CRY+PRIMAL",
-    "https://placehold.co/400x550/0f172a/93c5fd?text=RAINBOW+SIX+SIEGE",
-  ];
-
-  const libraryImages = [
-    "https://placehold.co/400x400/0f172a/93c5fd?text=Game+1",
-    "https://placehold.co/400x400/0f172a/93c5fd?text=Game+2",
-    "https://placehold.co/400x400/0f172a/93c5fd?text=Game+3",
-    "https://placehold.co/400x400/0f172a/93c5fd?text=Game+4",
-  ];
-
-  const bottomImage =
-    "https://placehold.co/1200x400/0f172a/93c5fd?text=Bottom+Rectangular+Image";
-
+const FeatureSection = () => {
   return (
-    <div className="bg-slate-950 text-gray-100 font-inter px-4 sm:px-8 lg:px-16 py-16 space-y-24">
-      {/* --- Section 1: Instant Play --- */}
-      <section className="max-w-7xl mx-auto space-y-12">
-        {/* Top row: text + parallelogram hero */}
-        <div className="grid lg:grid-cols-2 gap-10 items-center">
-          {/* Text content */}
-          <div>
-            <h2 className="text-5xl font-extrabold text-white mb-6">
-              Instant <span className="text-indigo-400">Play</span>
-            </h2>
-            <ul className="space-y-4 text-gray-300">
-              <li>🎮 No installs, no wait</li>
-              <li>🌐 Play anywhere, anytime</li>
-              <li>⚡ Fast, seamless gaming</li>
-            </ul>
+    <div className="bg-[#0A0F21] text-white font-inter px-6 md:px-12 lg:px-20 py-20 space-y-32">
+      {/* ------------------- Instant Play Section ------------------- */}
+      <section className="max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-16">
+          {/* Left Content */}
+          <div className="flex flex-col space-y-6 md:w-[40%]">
+            <div className="w-20 h-[4px] bg-white mb-6"></div>
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-10">
+                Instant <span className="text-indigo-400">Play</span>
+              </h2>
+
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-2xl font-semibold mb-1">01</h3>
+                  <p className="text-sm text-gray-300">
+                    <span className="font-semibold text-white">
+                      No installs, no wait
+                    </span>{" "}
+                    — jump straight into the action.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-semibold mb-1">02</h3>
+                  <p className="text-sm text-gray-300">
+                    <span className="font-semibold text-white">
+                      Play anywhere, anytime
+                    </span>{" "}
+                    with just one click.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-semibold mb-1">03</h3>
+                  <p className="text-sm text-gray-300">
+                    <span className="font-semibold text-white">
+                      Fast, seamless gaming
+                    </span>{" "}
+                    without downloads or updates.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          {/* Parallelogram Hero Image (using clip-path) */}
-          <div className="relative w-full max-w-lg mx-auto group">
+          {/* Right Image */}
+          <div className="relative w-full lg:w-[45%] flex justify-center">
             <div
-              className="overflow-hidden rounded-xl shadow-2xl"
+              className="w-[80%] md:w-[70%] lg:w-[85%] overflow-hidden"
               style={{
-                clipPath: "polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%)",
+                clipPath: "polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)",
               }}
             >
               <img
-                src={heroImage}
-                alt="Hero Character"
-                className="object-cover w-full h-full scale-110 transition-transform duration-300 group-hover:scale-105"
+                src={heroImg}
+                alt="Hero"
+                className="w-full h-full object-cover "
               />
             </div>
           </div>
         </div>
 
-        {/* Below: 3 parallelogram images */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-          {topImages.map((src, i) => (
+        {/* 3 Skewed Game Cards */}
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-16">
+          {[gears, farcry, rainbow].map((img, i) => (
             <div
               key={i}
-              className="relative overflow-hidden rounded-xl shadow-xl w-60 sm:w-64 transition-transform duration-300 hover:scale-105"
+              className="overflow-hidden transition-transform duration-300 hover:scale-105"
               style={{
-                clipPath: "polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%)",
+                clipPath: "polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)",
               }}
             >
               <img
-                src={src}
+                src={img}
                 alt={`Game ${i + 1}`}
-                className="object-cover w-full h-full scale-110"
+                className="object-cover w-60 h-36 sm:w-72 sm:h-44 lg:w-80 lg:h-52"
               />
             </div>
           ))}
         </div>
       </section>
-
-      {/* --- Section 2: Massive Library --- */}
-      <section className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-        {/* Left: Text */}
-        <div>
-          <h2 className="text-5xl font-extrabold text-white mb-6">
+      {/* ------------------- Massive Library Section ------------------- */}
+      <section className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        {/* Left Text */}
+        <div className="flex flex-col justify-center space-y-6">
+          <h2 className="text-4xl md:text-5xl font-bold">
             Massive <span className="text-indigo-400">Library</span>
           </h2>
-          <p className="text-gray-300 mb-8 max-w-lg">
-            Discover hundreds of games from every genre — action, puzzle,
-            strategy, and more. New titles are added regularly to keep your
-            library fresh.
+          <p className="text-gray-300 leading-relaxed max-w-md">
+            Our platform brings you a massive library of games across every
+            genre you love. From action-packed adventures to casual puzzles,
+            there’s always something new to explore. With fresh titles added
+            regularly, the fun never runs out.
           </p>
-          <button className="px-8 py-3 bg-white text-slate-950 font-bold rounded-xl hover:bg-gray-200 transition">
+          <button className="bg-white text-[#0A0F21] px-6 py-2.5 font-semibold rounded-md w-fit hover:bg-gray-200 transition">
             Explore
           </button>
         </div>
 
-        {/* Right: 2x2 image grid */}
+        {/* Right Image Grid */}
         <div className="grid grid-cols-2 gap-4">
-          {libraryImages.map((src, i) => (
+          {[blue, lost, jewel, dream].map((img, i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-xl shadow-lg hover:scale-[1.03] transition-transform"
+              className="overflow-hidden rounded-lg shadow-lg hover:scale-[1.03] transition-transform duration-300"
             >
               <img
-                src={src}
+                src={img}
                 alt={`Library ${i + 1}`}
-                className="object-cover w-full h-full"
+                className="w-full h-full object-cover"
               />
             </div>
           ))}
         </div>
       </section>
-
-      {/* --- Bottom Rectangular Image --- */}
+      {/* --- Bottom Rectangular Image --- */}{" "}
       <section className="max-w-7xl mx-auto">
+        {" "}
         <div className="overflow-hidden rounded-3xl shadow-2xl">
+          {" "}
           <img
             src={bottomImage}
             alt="Bottom Section"
             className="w-full h-full object-cover"
-          />
-        </div>
+          />{" "}
+        </div>{" "}
       </section>
     </div>
   );
 };
 
-export default First;
+export default FeatureSection;
