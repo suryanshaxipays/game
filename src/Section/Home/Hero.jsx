@@ -150,7 +150,7 @@ const Home = () => {
       </section>
 
       {/* Animated Marquee Section */}
-      <div className="relative w-full overflow-hidden lg-mt-5">
+      <div className="relative w-full overflow-hidden -mt-7 z-50">
         <div
           style={{
             display: "flex",

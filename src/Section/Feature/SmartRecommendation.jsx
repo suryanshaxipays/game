@@ -40,7 +40,7 @@ const SmartRecommendation = () => {
   };
 
   return (
-    <section className="w-full min-h-screen bg-[#070B16] text-white flex flex-col items-center px-5 md:px-16 py-16">
+    <section className="w-full min-h-screen bg-[#0A0F21] text-white flex flex-col items-center px-5 md:px-16 py-16">
       {/* Header */}
       <div className="w-full max-w-7xl">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-10">

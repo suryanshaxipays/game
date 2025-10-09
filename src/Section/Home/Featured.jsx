@@ -121,7 +121,7 @@ const Featured = () => {
       </div>
 
       {/* Navigation Arrows */}
-      <div className="absolute top-305 z-50 -translate-y-1/2 w-full max-w-7xl px-6 flex justify-between items-center">
+      <div className="relative top-10 sm:-top-60 lg:-top-62 z-50 -translate-y-1/2 w-full max-w-7xl px-6 flex justify-between items-center">
         <button
           onClick={prevSlide}
           className="group w-12 h-12 rounded-full bg-black/40 border border-white/20 flex items-center justify-center hover:bg-white/10 transition-all"

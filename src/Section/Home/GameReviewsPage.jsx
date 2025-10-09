@@ -104,7 +104,7 @@ const gamesData = [
     title: 'Ghost Of Tsushima',
     year: 2020,
     description:
-      'Step Into The War-Torn World Of Feudal Japan, Where Honor And Sacrifice Are Tested In The Fires Of Conflict. "Ghost Of Tsushima" Follows Jin Sakai, One Of The Last Remaining Samurai, As He Defends His Homeland From The Mongol Invasion. The Game Offers An Immersive Open-World Filled With Stunning Landscapes And ...',
+      'Step Into The War-Torn World Of Feudal Japan, Where Honor And Sacrifice Are Tested In The Fires Of Conflict. "Ghost Of Tsushima" Follows Jin Sakai. One Of The Last Remaining Samurai, As He Defends His Homeland From The Mongol Invasion. The Game Offers An Immersive Open-World Filled With Stunning Landscapes And ...',
     poster:         "https://api.builder.io/api/v1/image/assets/TEMP/61d643629f4743993565e147ca8c49dd2ce33b1f?width=442",
 
     tags: ['Action', 'RPG', 'Samurai', 'Adventure'],
