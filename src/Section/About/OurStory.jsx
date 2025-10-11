@@ -78,7 +78,7 @@ const OurStory = () => {
 
       {/* Stats Box */}
       <div className="z-10 bg-white text-black rounded-2xl shadow-lg mt-16 p-6 md:p-8 w-full max-w-6xl">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center md:text-left">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center md:text-left">
           <div>
             <h4 className="font-bold text-lg mb-2">Players</h4>
             <p className="text-sm text-gray-700">

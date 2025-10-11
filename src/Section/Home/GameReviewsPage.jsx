@@ -104,7 +104,7 @@ const gamesData = [
     title: 'Ghost Of Tsushima',
     year: 2020,
     description:
-      'Step Into The War-Torn World Of Feudal Japan, Where Honor And Sacrifice Are Tested In The Fires Of Conflict. "Ghost Of Tsushima" Follows Jin Sakai. One Of The Last Remaining Samurai, As He Defends His Homeland From The Mongol Invasion. The Game Offers An Immersive Open-World Filled With Stunning Landscapes And ...',
+      'Step Into The War-Torn World Of Feudal Japan, Where Honor And Sacrifice Are Tested In The Fires Of Conflict. "Ghost Of Tsushima" Follows Jin SakaI.',
     poster:         "https://api.builder.io/api/v1/image/assets/TEMP/61d643629f4743993565e147ca8c49dd2ce33b1f?width=442",
 
     tags: ['Action', 'RPG', 'Samurai', 'Adventure'],
@@ -118,7 +118,7 @@ const gamesData = [
     title: 'Cyberpunk',
     year: 2020,
     description:
-      'Step Into A Dark, Gritty, And Dystopian World Where High-Tech Meets Low-Life. In Cyberpunk 2077, You Play As V, A Mercenary Navigating The Vibrant And Dangerous Night City, Where Choices Shape Your Destiny. The Game Blends First-Person Shooter Mechanics With RPG Elements, Offering Deep Customization, Immersive ...',
+      'Step Into A Dark, Gritty, And Dystopian World Where High-Tech Meets Low-Life. In Cyberpunk 2077, You Play As V, A Mercenary Navigating The Vibrant And Dangerous Night City.',
     poster: 'https://api.builder.io/api/v1/image/assets/TEMP/4e45b847ec2e381ab33106c85971f82ba90e86b1?width=442',
     tags: ['Action', 'RPG', 'Shooting'],
     metacriticScore: 86,
@@ -131,7 +131,7 @@ const gamesData = [
     title: 'Forza Horizon 5',
     year: 2021,
     description:
-      "Forza Horizon 5 Takes Players To The Stunning Landscapes Of Mexico, Delivering The Ultimate Open-World Racing Experience. With A Vast Map, Full Of Diverse Environments, The Game Excels In Both Visual Splendor And Gameplay Depth. Whether You're Speeding Through Deserts, Rainforests, Or Vibrant City Streets, ...",
+      "Forza Horizon 5 Takes Players To The Stunning Landscapes Of Mexico, Delivering The Ultimate Open-World Racing Experience. With A Vast Map, Full Of Diverse Environments.",
     poster:         "https://api.builder.io/api/v1/image/assets/TEMP/e06f544e133b0a63c96467cac01f3b0af5b7fffd?width=442",
 
     tags: ['Sports', 'Racing', 'Cars', 'Drifting'],
@@ -145,7 +145,7 @@ const gamesData = [
     title: 'COD: Modern Warfare II',
     year: 2022,
     description:
-      'Call Of Duty: Black Ops 6 Returns With An Intense, Fast-Paced Storyline, Diving Deeper Into The Shadowy World Of Covert Operations. Boasting A Gripping Narrative, This Installment Introduces "Omnimovement," Allowing Unprecedented Flexibility In How Players Navigate The Battlefield. From Sliding And Sprinting In Any Direction ...',
+      'Call Of Duty: Black Ops 6 Returns With An Intense, Fast-Paced Storyline, Diving Deeper Into The Shadowy World Of Covert Operations. Boasting A Gripping Narrative. ',
     poster:         "https://api.builder.io/api/v1/image/assets/TEMP/5bc93e9fdf0178d876931a6e114d44df4403f043?width=442",
 
     tags: ['Action', 'RPG', 'History', 'Battle', 'Shooting'],

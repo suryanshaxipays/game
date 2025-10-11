@@ -12,7 +12,7 @@ const FeatureSection = () => {
   return (
     <div className="bg-[#0A0F21] text-white font-inter px-6 md:px-12 lg:px-20 py-20 space-y-32">
       {/* ------------------- Instant Play Section ------------------- */}
-      <section className="max-w-7xl mx-auto">
+      <section className="lg:mt-10 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16">
           {/* Left Content */}
           <div className="flex flex-col space-y-6 md:w-[40%]">
@@ -74,7 +74,7 @@ const FeatureSection = () => {
         </div>
 
         {/* 3 Skewed Game Cards */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-16">
+        <div className="flex flex-row justify-center items-center gap-6 mt-16">
           {[gears, farcry, rainbow].map((img, i) => (
             <div
               key={i}
@@ -96,10 +96,10 @@ const FeatureSection = () => {
       <section className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Text */}
         <div className="flex flex-col justify-center space-y-6">
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-4xl md:text-7xl font-bold">
             Massive <span className="text-indigo-400">Library</span>
           </h2>
-          <p className="text-gray-300 leading-relaxed max-w-md">
+          <p className="text-gray-300 leading-relaxed max-w-8xl">
             Our platform brings you a massive library of games across every
             genre you love. From action-packed adventures to casual puzzles,
             there’s always something new to explore. With fresh titles added
@@ -111,7 +111,7 @@ const FeatureSection = () => {
         </div>
 
         {/* Right Image Grid */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-0">
           {[blue, lost, jewel, dream].map((img, i) => (
             <div
               key={i}
@@ -120,14 +120,14 @@ const FeatureSection = () => {
               <img
                 src={img}
                 alt={`Library ${i + 1}`}
-                className="w-full h-full object-cover"
+                className="w-[85%] h-[85%] object-cover"
               />
             </div>
           ))}
         </div>
       </section>
       {/* --- Bottom Rectangular Image --- */}{" "}
-      <section className="max-w-7xl mx-auto">
+      <section className="max-w-6xl mx-auto">
         {" "}
         <div className="overflow-hidden rounded-3xl shadow-2xl">
           {" "}

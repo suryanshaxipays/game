@@ -5,13 +5,14 @@ import subway from "../../assets/About/subway.png";
 import pubg from "../../assets/About/pubg.png";
 import shooter from "../../assets/About/shooter.png";
 import war from "../../assets/About/war.png";
+import mbg from "../../assets/About/mbg.png";
 
 const Image = () => {
   return (
     <div>
-      <section className="bg-[#0A0F21] text-white w-full flex flex-col items-center justify-center py-20 px-5 md:px-16 relative overflow-hidden">
+      <section className="flex bg-[#0A0F21] text-white w-full  flex-col items-center justify-center py-20 px-5 md:px-16 relative overflow-hidden">
         {/* Section Title */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="block text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
             Who We Are
           </h2>
@@ -26,8 +27,12 @@ const Image = () => {
           </button>
         </div>
 
+        <div className="lg:hidden mt-7 -mb-20">
+          <img src={mbg} alt="" />
+        </div>
+
         {/* Content Section */}
-        <div className="w-full max-w-7xl flex flex-col lg:flex-row items-center justify-center gap-10">
+        <div className="hidden lg:flex w-full max-w-7xl  flex-col lg:flex-row items-center justify-center gap-10">
           {/* Left Text Section */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-2 lg:w-1/5">
             <p className="italic text-lg md:text-xl">
@@ -44,7 +49,7 @@ const Image = () => {
           </div>
 
           {/* Image Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 lg:w-3/5">
+          <div className="hidden lg:grid grid-cols-2 sm:grid-cols-3 gap-4 lg:w-3/5">
             <img
               src={hedgies}
               alt="Hedgies"
@@ -74,7 +79,7 @@ const Image = () => {
           </div>
 
           {/* Right Text Section */}
-          <div className="flex flex-col items-center lg:items-end text-center lg:text-right space-y-2 lg:w-1/5">
+          <div className="hidden lg:flex flex-col items-center lg:items-end text-center lg:text-right space-y-2 lg:w-1/5">
             <img
               src={pubg}
               alt="PubG"

@@ -34,10 +34,10 @@ const Footer = () => {
       style={{ backgroundImage: `url(${bgFooter})` }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute bg-#2716FF/100"></div>
 
       {/* Pink glow overlay */}
-      <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[#A21CAF]/40 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[#2716FF]/30 to-[#2716FF]/100"></div>
 
       <footer className="relative z-10 text-white">
         <div className="max-w-7xl mx-auto px-6 pt-24 pb-12">
@@ -45,8 +45,8 @@ const Footer = () => {
             {/* Left Section */}
             <div className="lg:col-span-5">
               <p className="max-w-md mb-8 leading-relaxed text-gray-300">
-                A well-designed gaming header often incorporates elements such as
-                game characters, iconic symbols, vibrant colors, and dynamic
+                A well-designed gaming header often incorporates elements such
+                as game characters, iconic symbols, vibrant colors, and dynamic
                 visuals.
               </p>
 
@@ -70,7 +70,11 @@ const Footer = () => {
                     href={social.href}
                     className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition"
                   >
-                    <img src={social.src} alt={social.alt} className="w-10 h-10" />
+                    <img
+                      src={social.src}
+                      alt={social.alt}
+                      className="w-10 h-10"
+                    />
                   </a>
                 ))}
               </div>
@@ -80,7 +84,7 @@ const Footer = () => {
             <div className="hidden lg:block lg:col-span-2"></div>
 
             {/* Right Section - Links */}
-            <div className="lg:col-span-5 grid grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="lg:col-span-5 grid grid-cols-3 gap-8">
               {Object.entries(footerLinks).map(([title, links]) => (
                 <div key={title}>
                   <h3 className="font-bold uppercase tracking-wider mb-4">

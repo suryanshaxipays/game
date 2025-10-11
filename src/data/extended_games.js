@@ -11,20 +11,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/freealiens300200.webp",
     youtubePreview: "https://www.youtube.com/embed/3AVsNPnOim4?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=3AVsNPnOim4",
     embedLink: "https://cdn.htmlgames.com/FreeAliens/"
-  ,
-    year: 2016,
-    rating: 11,
-    price: 11.11,
-    originalPrice: 12.34,
-    discount: "10%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/freealiens300200.webp",
-    isFree: true,
-    genres: "Mahjong",
-    platform: "PC",
-    publisher: "Playverse",
-    players: "Single Player",
-    isOnline: true
-},
+  },
   {
     id: 2,
     title: "Delicious Duos",
@@ -32,20 +19,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/deliciousduos300200.webp",
     youtubePreview: "https://www.youtube.com/embed/g6f9Mu9Z2Cw?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=g6f9Mu9Z2Cw",
     embedLink: "https://cdn.htmlgames.com/DeliciousDuos/"
-  ,
-    year: 2000,
-    rating: 58,
-    price: 39.77,
-    originalPrice: 49.71,
-    discount: "20%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/deliciousduos300200.webp",
-    isFree: true,
-    genres: "Mahjong",
-    platform: "All Platforms",
-    publisher: "HTML Games Studio",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 3,
     title: "Mahjongg Pyramids",
@@ -53,20 +27,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/mahjonggpyramids300200.webp",
     youtubePreview: "https://www.youtube.com/embed/ntkY4StwmMg?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=ntkY4StwmMg",
     embedLink: "https://cdn.htmlgames.com/MahjonggPyramids/"
-  ,
-    year: 2006,
-    rating: 35,
-    price: 4.03,
-    originalPrice: 10.08,
-    discount: "60%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/mahjonggpyramids300200.webp",
-    isFree: true,
-    genres: "Mahjong",
-    platform: "PC",
-    publisher: "HTML Games Studio",
-    players: "Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 4,
     title: "Mahjong Merge",
@@ -74,20 +35,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/mahjongmerge300200.webp",
     youtubePreview: "https://www.youtube.com/embed/RPwA49RsRN4?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=RPwA49RsRN4",
     embedLink: "https://cdn.htmlgames.com/MahjongMerge/"
-  ,
-    year: 2000,
-    rating: 73,
-    price: 27.16,
-    originalPrice: 30.18,
-    discount: "10%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/mahjongmerge300200.webp",
-    isFree: true,
-    genres: "Mahjong",
-    platform: "PC",
-    publisher: "HTML Games Studio",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 5,
     title: "Christmas Connect",
@@ -95,20 +43,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/christmasconnect-300200.webp",
     youtubePreview: "https://www.youtube.com/embed/3ACqExQ_ASo?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=3ACqExQ_ASo",
     embedLink: "https://cdn.htmlgames.com/ChristmasConnect/"
-  ,
-    year: 2001,
-    rating: 79,
-    price: 2.74,
-    originalPrice: 9.14,
-    discount: "70%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/christmasconnect-300200.webp",
-    isFree: true,
-    genres: "Mahjong",
-    platform: "All Platforms",
-    publisher: "HTML Games Studio",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
 
   // --- Solitaire Games ---
   {
@@ -118,20 +53,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/yukonfreecell300200.webp",
     youtubePreview: "https://www.youtube.com/embed/9xfIN9FSfe0?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=9xfIN9FSfe0",
     embedLink: "https://cdn.htmlgames.com/YukonFreecell/"
-  ,
-    year: 2013,
-    rating: 97,
-    price: 9.25,
-    originalPrice: 30.83,
-    discount: "70%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/yukonfreecell300200.webp",
-    isFree: true,
-    genres: "Solitaire",
-    platform: "Web Browser",
-    publisher: "Skyplay",
-    players: "Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 7,
     title: "Spider Solitaire 2 Suits",
@@ -139,20 +61,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/spidersolitaire2suits300200.webp",
     youtubePreview: "https://www.youtube.com/embed/Nj2nWjxdvtk?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=Nj2nWjxdvtk",
     embedLink: "https://cdn.htmlgames.com/SpiderSolitaire2Suits/"
-  ,
-    year: 2022,
-    rating: 53,
-    price: 19.38,
-    originalPrice: 24.22,
-    discount: "20%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/spidersolitaire2suits300200.webp",
-    isFree: true,
-    genres: "Solitaire",
-    platform: "Web Browser",
-    publisher: "HTML Games Studio",
-    players: "Single Player",
-    isOnline: true
-},
+  },
   {
     id: 8,
     title: "Spider Freecell",
@@ -160,20 +69,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/spiderfreecell300200.webp",
     youtubePreview: "https://www.youtube.com/embed/X-JZPhMgnPI?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=X-JZPhMgnPI",
     embedLink: "https://cdn.htmlgames.com/SpiderFreecell/"
-  ,
-    year: 2000,
-    rating: 13,
-    price: 13.35,
-    originalPrice: 26.69,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/spiderfreecell300200.webp",
-    isFree: true,
-    genres: "Solitaire",
-    platform: "All Platforms",
-    publisher: "Skyplay",
-    players: "Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 9,
     title: "Gargantua Double Klondike",
@@ -181,20 +77,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/gargantuadoubleklondike300200.webp",
     youtubePreview: "https://www.youtube.com/embed/ejWUNIUk774?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=ejWUNIUk774",
     embedLink: "https://cdn.htmlgames.com/GargantuaDoubleKlondike/"
-  ,
-    year: 2020,
-    rating: 85,
-    price: 17.02,
-    originalPrice: 42.55,
-    discount: "60%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/gargantuadoubleklondike300200.webp",
-    isFree: true,
-    genres: "Solitaire",
-    platform: "Web Browser",
-    publisher: "Playverse",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 10,
     title: "Flower Solitaire",
@@ -202,20 +85,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/flowersolitaire-300200.webp",
     youtubePreview: "https://www.youtube.com/embed/1l8z4Qv8x18?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=1l8z4Qv8x18",
     embedLink: "https://cdn.htmlgames.com/FlowerSolitaire/"
-  ,
-    year: 2019,
-    rating: 58,
-    price: 25.42,
-    originalPrice: 36.31,
-    discount: "30%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/flowersolitaire-300200.webp",
-    isFree: true,
-    genres: "Solitaire",
-    platform: "PC",
-    publisher: "Playverse",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
 
   // --- Action Games ---
   {
@@ -225,19 +95,6 @@ export const games = [
   thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/redandgreen2300200.webp",
   youtubePreview: "https://www.youtube.com/embed/WAiml6iAPw8?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=WAiml6iAPw8",
   embedLink: "https://cdn.htmlgames.com/RedAndGreen2/"
-,
-    year: 2014,
-    rating: 15,
-    price: 5.89,
-    originalPrice: 29.47,
-    discount: "80%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/redandgreen2300200.webp",
-    isFree: true,
-    genres: "Action",
-    platform: "All Platforms",
-    publisher: "Skyplay",
-    players: "Co-op",
-    isOnline: true
 },
 {
   id: 12,
@@ -246,19 +103,6 @@ export const games = [
   thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/bottleshooter300200.webp",
   youtubePreview: "https://www.youtube.com/embed/Wpk6XZW-X18?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=Wpk6XZW-X18",
   embedLink: "https://cdn.htmlgames.com/BottleShooter/"
-,
-    year: 2023,
-    rating: 52,
-    price: 3.62,
-    originalPrice: 5.17,
-    discount: "30%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/bottleshooter300200.webp",
-    isFree: true,
-    genres: "Action",
-    platform: "PC",
-    publisher: "HTML Games Studio",
-    players: "Multiplayer",
-    isOnline: true
 },
 {
   id: 13,
@@ -267,19 +111,6 @@ export const games = [
   thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/trafficcontrol300200.webp",
   youtubePreview: "https://www.youtube.com/embed/pvnN9fA-61A?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=pvnN9fA-61A",
   embedLink: "https://cdn.htmlgames.com/TrafficControl/"
-,
-    year: 2005,
-    rating: 46,
-    price: 19.8,
-    originalPrice: 39.61,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/trafficcontrol300200.webp",
-    isFree: true,
-    genres: "Action",
-    platform: "PC",
-    publisher: "Skyplay",
-    players: "Multiplayer",
-    isOnline: true
 },
 {
   id: 14,
@@ -288,19 +119,6 @@ export const games = [
   thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/junglejump300.webp",
   youtubePreview: "https://www.youtube.com/embed/n0fqpwvBenI?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=n0fqpwvBenI",
   embedLink: "https://cdn.htmlgames.com/JungleJump/"
-,
-    year: 2012,
-    rating: 88,
-    price: 30.66,
-    originalPrice: 38.33,
-    discount: "20%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/junglejump300.webp",
-    isFree: true,
-    genres: "Action",
-    platform: "Web Browser",
-    publisher: "Skyplay",
-    players: "Single/Multiplayer",
-    isOnline: true
 },
 {
   id: 15,
@@ -309,19 +127,6 @@ export const games = [
   thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/neonfactory300200.webp",
   youtubePreview: "https://www.youtube.com/embed/n-9ISKxpdQM?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=n-9ISKxpdQM",
   embedLink: "https://cdn.htmlgames.com/NeonFactory/"
-,
-    year: 2008,
-    rating: 42,
-    price: 17.62,
-    originalPrice: 29.36,
-    discount: "40%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/neonfactory300200.webp",
-    isFree: true,
-    genres: "Action",
-    platform: "Mobile",
-    publisher: "Playverse",
-    players: "Single Player",
-    isOnline: true
 },
 
 
@@ -333,20 +138,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/bubble_shooter300200.webp",
     youtubePreview: "https://www.youtube.com/embed/dTJ5IBX-BkM?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=dTJ5IBX-BkM",
     embedLink: "https://cdn.htmlgames.com/BubbleShooter/"
-  ,
-    year: 2011,
-    rating: 65,
-    price: 8.69,
-    originalPrice: 17.38,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/bubble_shooter300200.webp",
-    isFree: true,
-    genres: "Match 3",
-    platform: "Mobile",
-    publisher: "HTML Games Studio",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 17,
     title: "Connect the Bubbles",
@@ -354,20 +146,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/connect-the-bubbles-300.webp",
     youtubePreview: "https://www.youtube.com/embed/Alct2yho-Fk?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=Alct2yho-Fk",
     embedLink: "https://cdn.htmlgames.com/ConnectTheBubbles/"
-  ,
-    year: 2009,
-    rating: 45,
-    price: 7.91,
-    originalPrice: 15.81,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/connect-the-bubbles-300.webp",
-    isFree: true,
-    genres: "Match 3",
-    platform: "PC",
-    publisher: "FunArcade",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 18,
     title: "Love Bubbles",
@@ -375,20 +154,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/lovebubbles300200.webp",
     youtubePreview: "https://www.youtube.com/embed/v__ZhwLkVIw?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=v__ZhwLkVIw",
     embedLink: "https://cdn.htmlgames.com/LoveBubbles/"
-  ,
-    year: 2017,
-    rating: 70,
-    price: 13.3,
-    originalPrice: 33.24,
-    discount: "60%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/lovebubbles300200.webp",
-    isFree: true,
-    genres: "Match 3",
-    platform: "PC",
-    publisher: "HTML Games Studio",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 19,
     title: "Jewels of the Medici",
@@ -396,20 +162,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/jewelsofthemedici300200.webp",
     youtubePreview: "https://www.youtube.com/embed/55fvVkyvjNw?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=55fvVkyvjNw",
     embedLink: "https://cdn.htmlgames.com/JewelsOfTheMedici/"
-  ,
-    year: 2014,
-    rating: 86,
-    price: 2.85,
-    originalPrice: 28.51,
-    discount: "90%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/jewelsofthemedici300200.webp",
-    isFree: true,
-    genres: "Match 3",
-    platform: "All Platforms",
-    publisher: "HTML Games Studio",
-    players: "Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 20,
     title: "Christmas Match 3",
@@ -417,20 +170,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/christmasmatch3300200.webp",
     youtubePreview: "https://www.youtube.com/embed/91qwOrWp038?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=91qwOrWp038",
     embedLink: "https://cdn.htmlgames.com/ChristmasMatch3/"
-  ,
-    year: 2004,
-    rating: 52,
-    price: 4.12,
-    originalPrice: 41.24,
-    discount: "90%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/christmasmatch3300200.webp",
-    isFree: true,
-    genres: "Match 3",
-    platform: "PC",
-    publisher: "HTML Games Studio",
-    players: "Multiplayer",
-    isOnline: true
-},
+  },
 
   // --- Mind / Puzzle Games ---
   {
@@ -440,20 +180,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/findtheoddout300200.webp",
     youtubePreview: "https://www.youtube.com/embed/uBeuPlyZ0As?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=uBeuPlyZ0As",
     embedLink: "https://cdn.htmlgames.com/FindTheOddOneOut/"
-  ,
-    year: 2012,
-    rating: 94,
-    price: 8.63,
-    originalPrice: 21.57,
-    discount: "60%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/findtheoddout300200.webp",
-    isFree: true,
-    genres: "Mind / Puzzle",
-    platform: "Web Browser",
-    publisher: "Playverse",
-    players: "Single Player",
-    isOnline: true
-},
+  },
   {
     id: 22,
     title: "Sudoku Classic",
@@ -461,20 +188,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/sudokuclassic300200.webp",
     youtubePreview: "https://www.youtube.com/embed/YgJqAKYwW8E?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=YgJqAKYwW8E",
     embedLink: "https://cdn.htmlgames.com/SudokuClassic/"
-  ,
-    year: 2007,
-    rating: 25,
-    price: 13.18,
-    originalPrice: 26.35,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/sudokuclassic300200.webp",
-    isFree: true,
-    genres: "Mind / Puzzle",
-    platform: "PC",
-    publisher: "Skyplay",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 23,
     title: "Nonogram Saga",
@@ -482,20 +196,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/nonogramsaga300200.webp",
     youtubePreview: "https://www.youtube.com/embed/PZAUgXyJbCE?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=PZAUgXyJbCE",
     embedLink: "https://cdn.htmlgames.com/NonogramSaga/"
-  ,
-    year: 2009,
-    rating: 67,
-    price: 39.61,
-    originalPrice: 49.51,
-    discount: "20%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/nonogramsaga300200.webp",
-    isFree: true,
-    genres: "Mind / Puzzle",
-    platform: "PC",
-    publisher: "FunArcade",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 24,
     title: "1010 Halloween",
@@ -503,20 +204,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/1010halloween300200.webp",
     youtubePreview: "https://www.youtube.com/embed/H8jEo1PpJxk?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=H8jEo1PpJxk",
     embedLink: "https://cdn.htmlgames.com/1010Halloween/"
-  ,
-    year: 2017,
-    rating: 83,
-    price: 13.36,
-    originalPrice: 33.41,
-    discount: "60%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/1010halloween300200.webp",
-    isFree: true,
-    genres: "Mind / Puzzle",
-    platform: "PC",
-    publisher: "FunArcade",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 25,
     title: "Number Merge",
@@ -524,20 +212,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/numbermerge300200.webp",
     youtubePreview: "https://www.youtube.com/embed/0LtWuK7fCMI?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=0LtWuK7fCMI",
     embedLink: "https://cdn.htmlgames.com/NumberMerge/"
-  ,
-    year: 2017,
-    rating: 49,
-    price: 8.9,
-    originalPrice: 11.12,
-    discount: "20%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/numbermerge300200.webp",
-    isFree: true,
-    genres: "Mind / Puzzle",
-    platform: "Web Browser",
-    publisher: "Skyplay",
-    players: "Multiplayer",
-    isOnline: true
-},
+  },
 
   // --- Classic Games ---
   {
@@ -547,20 +222,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/oneline300200.webp",
     youtubePreview: "https://www.youtube.com/embed/G_wPpS6S16w?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=G_wPpS6S16w",
     embedLink: "https://cdn.htmlgames.com/OneLine/"
-  ,
-    year: 2020,
-    rating: 69,
-    price: 22.71,
-    originalPrice: 28.39,
-    discount: "20%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/oneline300200.webp",
-    isFree: true,
-    genres: "Classic Games",
-    platform: "All Platforms",
-    publisher: "Playverse",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 27,
     title: "Carrom Pool",
@@ -568,20 +230,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/carrompool300200.webp",
     youtubePreview: "https://www.youtube.com/embed/tPO8otIb1DQ?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=tPO8otIb1DQ",
     embedLink: "https://cdn.htmlgames.com/CarromPool/"
-  ,
-    year: 2016,
-    rating: 92,
-    price: 12.96,
-    originalPrice: 32.39,
-    discount: "60%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/carrompool300200.webp",
-    isFree: true,
-    genres: "Classic Games",
-    platform: "Web Browser",
-    publisher: "Skyplay",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 28,
     title: "Cube Block",
@@ -589,20 +238,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/cubeblock300200.webp",
     youtubePreview: "https://www.youtube.com/embed/F17vRDoLTvg?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=F17vRDoLTvg",
     embedLink: "https://cdn.htmlgames.com/CubeBlock/"
-  ,
-    year: 2020,
-    rating: 27,
-    price: 5.01,
-    originalPrice: 25.05,
-    discount: "80%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/cubeblock300200.webp",
-    isFree: true,
-    genres: "Classic Games",
-    platform: "PC",
-    publisher: "FunArcade",
-    players: "Single Player",
-    isOnline: true
-},
+  },
   {
     id: 29,
     title: "Upside Down",
@@ -610,20 +246,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/upsidedown300200.webp",
     youtubePreview: "https://www.youtube.com/embed/Q9aAlbCF02U?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=Q9aAlbCF02U",
     embedLink: "https://cdn.htmlgames.com/UpsideDown/"
-  ,
-    year: 2017,
-    rating: 73,
-    price: 3.83,
-    originalPrice: 38.29,
-    discount: "90%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/upsidedown300200.webp",
-    isFree: true,
-    genres: "Classic Games",
-    platform: "PC",
-    publisher: "Skyplay",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 30,
     title: "Ninja Breakout",
@@ -631,20 +254,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/ninjabreakout300200.webp",
     youtubePreview: "https://www.youtube.com/embed/r-xSAJ603Oo?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=r-xSAJ603Oo",
     embedLink: "https://cdn.htmlgames.com/NinjaBreakout/"
-  ,
-    year: 2013,
-    rating: 17,
-    price: 16.4,
-    originalPrice: 18.22,
-    discount: "10%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/ninjabreakout300200.webp",
-    isFree: true,
-    genres: "Classic Games",
-    platform: "Mobile",
-    publisher: "FunArcade",
-    players: "Single Player",
-    isOnline: true
-},
+  },
 
   // --- Hidden Object Games ---
   {
@@ -654,20 +264,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/medievalcastlehiddendifferences300200.webp",
     youtubePreview: "https://www.youtube.com/embed/Oz9X_xXQSos?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=Oz9X_xXQSos",
     embedLink: "https://cdn.htmlgames.com/MedievalCastleHiddenDifferences/"
-  ,
-    year: 2009,
-    rating: 67,
-    price: 17.49,
-    originalPrice: 34.98,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/medievalcastlehiddendifferences300200.webp",
-    isFree: true,
-    genres: "Hidden Objects",
-    platform: "Web Browser",
-    publisher: "FunArcade",
-    players: "Single/Multiplayer",
-    isOnline: true
-},
+  },
   {
     id: 32,
     title: "Treasure Maze",
@@ -675,20 +272,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/treasuremaze300200.webp",
     youtubePreview: "https://www.youtube.com/embed/VaH8G0sTJaY?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=VaH8G0sTJaY",
     embedLink: "https://cdn.htmlgames.com/TreasureMaze/"
-  ,
-    year: 2012,
-    rating: 55,
-    price: 16.75,
-    originalPrice: 27.92,
-    discount: "40%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/treasuremaze300200.webp",
-    isFree: true,
-    genres: "Hidden Objects",
-    platform: "Mobile",
-    publisher: "Playverse",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 33,
     title: "Street Hidden Objects",
@@ -696,20 +280,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/streethiddenobjects300200.webp",
     youtubePreview: "https://www.youtube.com/embed/BnAyZ8EGKGc?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=BnAyZ8EGKGc",
     embedLink: "https://cdn.htmlgames.com/StreetHiddenObjects/"
-  ,
-    year: 2003,
-    rating: 70,
-    price: 3.5,
-    originalPrice: 17.48,
-    discount: "80%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/streethiddenobjects300200.webp",
-    isFree: true,
-    genres: "Hidden Objects",
-    platform: "All Platforms",
-    publisher: "FunArcade",
-    players: "Co-op",
-    isOnline: true
-},
+  },
   {
     id: 34,
     title: "Jewels Classic",
@@ -717,20 +288,7 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/jewelsclassic300200.webp",
     youtubePreview: "https://www.youtube.com/embed/7WvAIKhQvug?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=7WvAIKhQvug",
     embedLink: "https://cdn.htmlgames.com/JewelsClassic/"
-  ,
-    year: 2020,
-    rating: 79,
-    price: 18.91,
-    originalPrice: 37.82,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/jewelsclassic300200.webp",
-    isFree: true,
-    genres: "Hidden Objects",
-    platform: "All Platforms",
-    publisher: "Skyplay",
-    players: "Single Player",
-    isOnline: true
-},
+  },
   {
     id: 35,
     title: "Medieval Castle Defense",
@@ -738,18 +296,5 @@ export const games = [
     thumbnail: "https://www.htmlgames.com/uploaded/game/thumb/medievalcastledefense300200.webp",
     youtubePreview: "https://www.youtube.com/embed/AeHATqxExL0?controls=0&showinfo=0&autoplay=1&mute=1&loop=1&playlist=AeHATqxExL0",
     embedLink: "https://cdn.htmlgames.com/MedievalCastleDefense/"
-  ,
-    year: 2003,
-    rating: 31,
-    price: 9.93,
-    originalPrice: 19.85,
-    discount: "50%",
-    image: "https://www.htmlgames.com/uploaded/game/thumb/medievalcastledefense300200.webp",
-    isFree: true,
-    genres: "Hidden Objects",
-    platform: "PC",
-    publisher: "Playverse",
-    players: "Single/Multiplayer",
-    isOnline: true
-}
+  }
 ];

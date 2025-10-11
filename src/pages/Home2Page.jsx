@@ -101,21 +101,6 @@ const Sidebar = () => {
             <SidebarItem icon={SupportIcon} text="Support" />
           </ul>
         </nav>
-
-        <div className="mt-auto">
-          <p className="text-sm text-gray-400 mb-2">Language</p>
-          <div className="flex items-center justify-between p-3 bg-[#2C3249] rounded-lg">
-            <div className="flex items-center">
-              <img
-                src="https://flagcdn.com/us.svg"
-                className="w-6 h-4 rounded-sm"
-                alt="US Flag"
-              />
-              <span className="ml-3">English (US)</span>
-            </div>
-            <img src={ChevronDownIcon} alt="Chevron" className="h-4 w-4" />
-          </div>
-        </div>
       </div>
     </aside>
   );

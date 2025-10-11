@@ -154,11 +154,11 @@ const ServicesPage = () => {
       </header>
 
       {/* Stats Section */}
-      <section className="max-w-4xl mx-auto my-16 bg-[#1C1C3A] rounded-xl p-8">
-        <div className="flex flex-col md:flex-row justify-around items-center text-center">
+      <section className="max-w-3xl   mx-4 md:mx-auto my-16 bg-[#1C1C3A] rounded-xl p-8">
+        <div className="flex flex-shrink justify-around items-center text-center">
           {stats.map((stat, index) => (
             <React.Fragment key={index}>
-              <div className="flex items-center space-x-4 my-4 md:my-0">
+              <div className="flex flex-col items-center space-x-4 my-4 md:my-0">
                 <div className="bg-pink-500/20 text-[#E6007A] p-3 rounded-full">
                   {stat.icon}
                 </div>
@@ -176,7 +176,7 @@ const ServicesPage = () => {
       </section>
       <div className="container mx-5 lg:mx-auto px-6 py-16">
         {/* FAQ Section */}
-        <section className="lg:ml-20 w-[90%] grid grid-cols-1 md:grid-cols-2 gap-16 items-start mt-24">
+        <section className="-mt-7 lg:ml-20 w-[90%] grid grid-cols-1 md:grid-cols-2 gap-16 items-start sm:mt-24">
           <div className="md:pr-8">
             <h2 className="text-4xl font-bold mb-6">
               Frequently asked Questions

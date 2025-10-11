@@ -69,7 +69,7 @@ const GameCategories = () => {
   ];
 
   return (
-    <div className="mt-8 relative h-full w-full bg-[#0A0F21] text-white px-6 sm:px-10 lg:px-20 py-10 lg:py-16">
+    <div className="mt-2 relative h-full w-full bg-[#0A0F21] text-white px-6 sm:px-10 lg:px-20 py-10 lg:py-16">
       {/* Title */}
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-10 lg:mb-12 pl-2">
         Choose Your Arena
